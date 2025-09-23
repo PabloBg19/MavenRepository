@@ -19,6 +19,4 @@ public class Ventana2 {
         frame.setSize(575, 567);
         frame.setVisible(true);
     }
-
-
 }
