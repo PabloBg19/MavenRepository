@@ -1,3 +1,5 @@
+package VentanaMaven;
+
 import javax.swing.*;
 import java.awt.*;
 

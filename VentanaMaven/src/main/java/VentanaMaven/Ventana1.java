@@ -6,13 +6,13 @@ import java.awt.*;
 public class Ventana1 {
 
     private JPanel Panel;
-    private JLabel LogoWilliams;
-    private JLabel User;
-    private JTextField TextUser;
-    private JLabel Password;
-    private JPasswordField PasswordField1;
-    private JRadioButton ACEPTARTERMINOSYCONDICIONESRadioButton;
-    private JButton ACCEDERButton;
+    private JRadioButton acceptTermsAndContictionsRadioButton;
+    private JButton accessButton;
+    private JPanel panel2;
+    private JTextField textField1;
+    private JPasswordField passwordField1;
+    private JPanel panel3;
+
 
     public Ventana1() {
         // Crear el panel de fondo
@@ -21,6 +21,9 @@ public class Ventana1 {
 
         // Hacer el panel original transparente para que se vea el fondo
         Panel.setOpaque(false);
+        panel2.setOpaque(false);
+        panel3.setOpaque(false);
+
 
         // Agregar el panel original (que contiene los componentes) al FondoPanel
         fondo.add(Panel, BorderLayout.CENTER);
@@ -31,6 +34,7 @@ public class Ventana1 {
 
     private static class FondoPanel extends JPanel {
         private final Image imagen;
+        
 
         public FondoPanel() {
             // Cargar la imagen desde los recursos
@@ -55,7 +59,7 @@ public class Ventana1 {
         JFrame frame = new JFrame("Ventana1");
         frame.setContentPane(new Ventana1().Panel);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        frame.setSize(575, 567);
+        frame.setSize(530, 400);
         frame.setLocationRelativeTo(null);
         frame.setVisible(true);
     }

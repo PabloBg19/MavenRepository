@@ -5,7 +5,7 @@ import java.awt.*;
 
 public class Ventana2 {
     private JPanel Panel;
-    private JTextField textField1;
+    private JTextField UsertField1;
     private JPasswordField passwordField1;
     private JPanel Panel2;
     private JPanel Panel3;
@@ -14,6 +14,7 @@ public class Ventana2 {
     private JComboBox comboBox1;
     private JButton ACCESSButton;
     private JPanel Panel4;
+    private JLabel fotos;
     private JLabel LogoWilliams;
     private JLabel User;
     private JTextField TextUser;
@@ -31,6 +32,11 @@ public class Ventana2 {
         Panel.setOpaque(false);
         Panel2.setOpaque(false);
         Panel4.setOpaque(false);
+        termsAndCondictionsRadioButton.setOpaque(false);
+        recordingUserRadioButton.setOpaque(false);
+        UsertField1.setOpaque(false);
+        passwordField1.setOpaque(false);
+
 
         // Agregar el panel original (que contiene los componentes) al FondoPanel
         fondo.add(Panel, BorderLayout.CENTER);
