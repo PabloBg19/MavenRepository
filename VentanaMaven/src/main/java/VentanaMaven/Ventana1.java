@@ -34,7 +34,7 @@ public class Ventana1 {
 
     private static class FondoPanel extends JPanel {
         private final Image imagen;
-        
+
 
         public FondoPanel() {
             // Cargar la imagen desde los recursos
