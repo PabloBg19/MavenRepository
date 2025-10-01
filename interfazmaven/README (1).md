@@ -20,7 +20,8 @@ El wireframe inicial muestra la estructura general de la aplicación "Gestor de 
 ![Wireframe](626c3c58-db28-423c-9098-30d1aa92c9c4.png)
 
 ---
-
+📷 Captura interfaz:
+![interfaz](interfaz.png)
 ### Árbol de contenedores
 La interfaz se organizó de la siguiente manera:
 
